@@ -1,17 +1,147 @@
-body{
-    width: 960px;
-    
-    }
+
     header{
-     background-color: #98D0FC     ;
-     background-position: center top;
-     height: 100px;
+    background-color:#3481D7;
+    color: white;
+     height: 250px;
      padding-top: 10px;
      font-family:  'Arial';
-     
+     max-width: 1319px;
+     width: 100%;
+     margin-right: auto;
+     margin-left: auto;
+    
      }
-     .blog{
-     
+
+     main{
+        max-width: 940px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
 
      }
+     .blog{
+     text-align: center;
+     font-size: 44px; 
+     padding-top: 30px;
+
+     }
+     .lorem{        
+        text-align: center;
+        font-size: 20px;
+        padding-left: 250px;
+        padding-right: 250px;
+        color: #ffffffce;
+     }
+     input{
+        height: 56px;
+        border-radius: 10px;
+        border: none;
+        background-color: #F4F4F4;
+        padding-left: 50px;
+    }
+
+    .buscador{
+            width: 100%;
+            background-color: #F4F4F4;
+            margin-top: 56px;
+         
+    }
+
+    .popular {   
+            margin-top: 34px;
+            color: #356EAD;
+            font-size: 20px;
+            font-family: Helvetica;
+    }
+    .feugiat{   
+            margin-top: 34px;
+            color: #1F3F68;
+            font-size: 36px;
+            font-family: Helvetica;
+    }
+    p{
+            color: black;
+            font-family: arial;
+            font-size: 16px;
+            line-height: 30px;
+            
+    }
+    h2{
+            color: #1F3F68;
+            font-size: 32px;
+            font-family: Helvetica;
+
+    }
+
+    h3{ color: #1F3F68;
+            font-size: 14px;
+            font-family: Helvetica;
+            padding-top: 30px;
+    }
+    h4{
+            color: rgba(0, 0, 0, 0.863);
+            font-family: arial;
+            font-size: 14px;
         
+     }
+    
+    .casa{
+      width: 530px;
+      height: 360px;
+
+    }
+    .contenedor{
+        
+      display: flex;
+
+ }
+
+.contenedor2{
+   width: 940px;
+   padding-top: 56px;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: 1fr;
+
+}
+.torre{
+   width: 300px;
+   height: 150px;
+   padding-top: 0px;
+   }
+.china{
+   width: 300px;
+   height: 150px;
+   padding-top: 0px;
+   }
+.pc{
+   width: 300px;
+   height: 150px;
+   padding-top: 0px;
+   }
+
+   h5{
+    color: #356EAD;
+    font-family: arial;
+    font-size: 16px;
+    text-align:right;
+    padding-top: 30px;
+   
+   }
+   .contenedor3{
+        width: 940px;
+        padding-top: 56px;
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+}
+.cont{
+display: flex;
+
+}
+.laptop{
+        width: 320px;
+        height: 200px;
+        padding-top: 0px;
+
+}
